@@ -89,6 +89,14 @@ Assuming [Jekyll] and [Bundler] are installed on your computer:
 
 Just upload all the files in the directory `_site`.
 
+## Deploy on Wasmer
+
+[![Deploy to Wasmer](https://img.shields.io/badge/Deploy%20to-Wasmer-171717?logo=wasmer&logoColor=white)](https://wasmer.io/apps/create?github=just-the-docs%2Fjust-the-docs-template)
+
+[Wasmer Edge](https://docs.wasmer.io/edge/) is a cloud platform for hosting websites and applications. Install dependencies with `bundle install`, build with `bundle exec jekyll build`, and serve `_site`. Set `url` in `_config.yml` to your deployed site URL and leave `baseurl` empty when serving from the domain root.
+
+The button opens the public template's import page. To publish your own documentation and redeploy changes, first [create a repository from this template][use this template] and import that repository into Wasmer.
+
 ## Customization
 
 You're free to customize sites that you create with this template, however you like!
